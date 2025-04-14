@@ -1,0 +1,13 @@
+train: D:\Project\kmutnb\growth_mushroom\Train\train
+val: D:\Project\kmutnb\growth_mushroom\Train\test
+test: D:\Project\kmutnb\growth_mushroom\Train\valid
+
+nc: 2
+names: ['abnormal', 'normal']
+
+roboflow:
+  workspace: v89-start
+  project: v89_pp_gmr
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/v89-start/v89_pp_gmr/dataset/2
